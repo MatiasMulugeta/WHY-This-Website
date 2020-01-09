@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>sales</title>
+        <link rel="stylesheet" href="mati web project.css">
+	</head>
+	<body>
+        <nav>
+        <ul class="goleft">
+            <li><a href="class">Home</a></li>
+            <li><a href="class">About</a></li>
+            <li><a href="class">News</a></li>
+            <li><a href="class">Contact</a></li>
+            <li class="goright"><a href="class" >Sign in</a></li>
+            <li class="goright"><a href="class">log in</a></li>
+            <li class="dropdownIcon"><a href='javascript:void(0);' onclick='dropdownMenu()'>&#9776;</a></li>
+        </ul>
+    </nav>
+        
+        <script>
+            function dropdownMenu(){
+                var x = document.getElementById('dropdownClick');
+                if(x.className === 'topnav'){
+                    x.className += ' responsive';
+                } else{
+                    x.className = 'topnav';
+                }
+            }
+        </script>
+		<h1>sales</h1>
+	</body>
+	<table border="2" bgcolor=#efefef>
+		<tr>
+			<th>ITEMS</th>
+			<th>mass</th>
+			<th bgcolor=#cccccc>price</th>
+		</tr>
+		<tr>
+			<th>Gold</th>
+			<td>1Gm</td>
+			<td bgcolor=#cccccc>2045.75 birr</td>
+		</tr>
+		<tr>
+			<th>silver</th>
+			<td>1GM</td>
+			<td bgcolor=#cccccc>6075 birr</td>
+		</tr>
+		<tr>
+			<th>Marble</th>
+			<td>1g</td>
+			<td bgcolor=#cccccc>7000 birr</td>
+		</tr>
+		<tr>
+			<th>Granite</th>
+			<td>1Gm</td>
+			<td bgcolor=#cccccc>10000 birr</td>
+		</tr>
+		<tr>
+			<th>Ancient stones</th>
+			<td>1Gm</td>
+			<td bgcolor=#cccccc>80000 birr</td>
+		</tr>
+	</table>
+    <h2>Percentage Calculator</h2>
+    <form id="xIsWhatPercentOfY">
+        <input type="text" id="numField1">
+    </form>
+    <table>
+        <tr>
+            <td>
+                <form>
+                    <input type = 'submit' value = "9" id = "numField2">
+                    <input type = "submit" value = "8" id = "numField2">
+                    <input type = "submit" value = "7" id = "numField2"><br>
+                    <input type = "submit" value = "6" id = "numField2">
+                    <input type = "submit" value = "5" id = "numField2">
+                    <input type = "submit" value = "4" id = "numField2"><br>
+                    <input type = "submit" value = "3" id = "numField2">
+                    <input type = "submit" value = "2" id = "numField2">
+                    <input type = "submit" value = "1" id = "numField2"><br>
+                    <input type = "submit" value = "00" id = "numField2">
+                    <input type = "submit" value = "o" id = "numField2">
+                    <input type = "submit" value = "." id = "numField2">
+                </form>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <button>calculate</button>
+    <h3 id="ResultField"></h3>
+    <script type="text/javascript" src="mati%20project%20script.js"></script>
+	<form action="examples">
+		<p>hey there if you like our page please be free to subscribe<br/>
+        <script src="js/mati project.js"></script>
+            your username:<br/>
+			<input type="text" name="username"/>
+		</p>
+		<p>your password:<br/>
+			<input type="password" name="password"/><br><br>
+			<input type="submit" name="subscribe" value="subscribe"/>
+		</p>
+	</form>
+	<form action="examples"></form>
+		<p>please select your choice
+			<br/>
+			<input type="radio" name="music" checked="checked" value="rock"/>rock
+			<input type="radio" name="music" value="pop"/>pop
+		</p>
+	<form action="examples">
+		<p>don't hesitate to leave a comment:
+			<br/>
+		<textarea name="comments" cols="20" rows="4">enter a comment</textarea>
+		</p>
+	</form>
+</html>
